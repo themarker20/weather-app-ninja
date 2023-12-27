@@ -6,6 +6,8 @@
   <p v-if="savedCities.length === 0">
     No locations added. To start tracking a location, search in the field above.
   </p>
+
+  <CopyRight />
 </template>
 
 <script setup>
@@ -13,6 +15,7 @@ import axios from "axios";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import CityCard from "./CityCard.vue";
+import CopyRight from "./CopyRight.vue";
 
 const savedCities = ref([]);
 const getCities = async () => {

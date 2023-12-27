@@ -113,11 +113,14 @@
       <p>Remove City</p>
     </div>
   </div>
+
+  <CopyRight />
 </template>
 
 <script setup>
 import axios from "axios";
 import { useRoute, useRouter } from "vue-router";
+import CopyRight from "./CopyRight.vue";
 
 const route = useRoute();
 const getWeatherData = async () => {
