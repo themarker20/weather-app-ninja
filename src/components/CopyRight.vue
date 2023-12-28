@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute bottom-3 border-b text-2xl scale-50">
+  <div class="fixed pt-6 bottom-3 border-b text-2xl scale-50">
     <p>
       This Site Made With
       <strong
